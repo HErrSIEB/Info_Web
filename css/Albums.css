@@ -12,26 +12,20 @@ body
     background-image: url(../images/background.jpg);
 }
 
+#album
+{
+    font-family: "Bungee Inline", sans-serif;
+    color: var(--five);
+    text-shadow: 1px 1px 1px var(--one);
+    text-align: center;
+}
+
 .album
 {
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 450px;
 }
-
-img.top 
-{
-    position: absolute;
-    top: 215px;
-    right: 0;
-    width: 250px;
-    height: 250px;
-}
-
-h2.edu
-{
-    color: rgb(253, 251, 125);
-}   
 
 #intro 
 {
@@ -40,16 +34,17 @@ h2.edu
     bottom: 0;
     right: 0;
     margin: auto;
-    height: 500px;
+    height: 250px;
     width: 1000px;
-    text-align: center;
+    position: relative;
     font-family: "Itim", cursive;
     color: var(--five);
     text-shadow: 1px 1px 1px var(--one);
     font-size: 30px;
+    text-align: center;
 }
 
-th
+#info
 {
     font-family: "Oi", serif;
     color: var(--five);
@@ -61,7 +56,8 @@ th
 
 td 
 {
-    padding: 25px;
+    padding-left: 230px;
+    padding-right: 250px;
 }
 
 h3	
@@ -90,10 +86,6 @@ header
     text-shadow: 1px 1px 1px var(--five);
     font-size: 40px;
     padding-right: 45px;
-}
-.H a {
-    text-decoration: none;
-    color:var(--one);
 }
   
 .logo 
@@ -130,6 +122,16 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+ul{
+    font-size: 30px;
+    font-family: "Itim", cursive;
+}
+
+ol{
+    font-size: 30px;
+    font-family: "Itim", cursive;
 }
 
 .dropdown {
