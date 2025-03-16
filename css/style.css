@@ -1,8 +1,22 @@
+:root {
+    --one:	#d9cab2;
+    --to: 	#b3a184;
+    --three:#937e5c;
+    --four: #705c3d;
+    --five: #31230c;
+}
+
 body {
     background-image: url(../images/background.jpg);
 }
 
-img{
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.album{
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 250px;
@@ -19,3 +33,60 @@ img.top {
 h2.edu{
     color: rgb(253, 251, 125);
 }   
+
+#intro {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    font-family: "Itim", cursive;
+    color: var(--five);
+    text-shadow: 1px 1px 1px var(--one);
+}
+
+th{
+    font-family: "Oi", serif;
+    color: var(--five);
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 1px 1px 1px var(--one); 
+}
+
+td {
+    padding: 25px;
+}
+h3	{
+    text-align: center;
+    font-family: "Modak", system-ui;
+    color: var(--one);
+    font-weight: normal;
+    text-shadow: 1px 1px 1px #31230c;
+}
+
+header {
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+
+.H {
+    font-family: "Oi", serif;
+    color:var(--one);
+    font-weight: 100;
+    display: inline-block;
+    text-shadow: 1px 1px 1px var(--five);
+}
+  
+.logo {
+    float: left;
+    margin-left: 1px;
+    margin-top: 5px;
+}
+
+img.logo {
+    width: 50px;
+}
